@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collapsible Sections</title>
+    <style>
+        .collapsible {
+            background-color: #f1f1f1;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+        }
+
+        .content {
+            display: none;
+            padding: 0 18px;
+            overflow: hidden;
+            background-color: #f1f1f1;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Open the first section by default
+            $(".content:first").show();
+
+            $(".collapsible").click(function () {
+                $(this).next(".content").slideToggle();
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <button class="collapsible">Toggle Section 1</button>
+    <div class="content">
+        <p>This is the content of Section 1.</p>
+    </div>
+
+    <button class="collapsible">Toggle Section 2</button>
+    <div class="content">
+        <p>This is the content of Section 2.</p>
+    </div>
+
+    <button class="collapsible">Toggle Section 3</button>
+    <div class="content">
+        <p>This is the content of Section 3.</p>
+    </div>
+</body>
+
+</html>
