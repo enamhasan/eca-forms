@@ -5,44 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anesthesia Forms</title>
-    <style>
-        .collapsible {
-            background-color: #f1f1f1;
-            cursor: pointer;
-            padding: 18px;
-            width: 100%;
-            border: none;
-            text-align: left;
-            outline: none;
-        }
-
-        .content {
-            display: none;
-            padding: 0 18px;
-            overflow: hidden;
-            background-color: #f1f1f1;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            // Open the first section by default
-            $(".content:first").show();
-
-            $(".collapsible").click(function () {
-                $(this).next(".content").slideToggle();
-            });
-        });
-    </script>
+    <script src="custom-js.js"></script>
+   
 </head>
 
 <body>
-    <button class="collapsible">Toggle Section 1</button>
+    <div class="container">
+    <h1>Anesthesia Record Forms</h1>
+    <button class="collapsible">ANESTHESIA RECORD</button>
     <div class="content">
-        <p>This is the content of Section 1.</p>
+        <p>This is the content of Section ANESTHESIA RECORD</p>
     </div>
 
-    <button class="collapsible">Toggle Section 2</button>
+    <button class="collapsible">Anesthesia Control </button>
     <div class="content">
         <p>This is the content of Section 2.</p>
     </div>
@@ -50,6 +27,7 @@
     <button class="collapsible">Toggle Section 3</button>
     <div class="content">
         <p>This is the content of Section 3.</p>
+    </div>
     </div>
 </body>
 
