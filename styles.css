@@ -1,5 +1,412 @@
+* {
+    max-width: 100%;
+}
+
+.commonBoreder {
+    border: none;
+}
+
+.commonBorederB {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+/* input:focus-visible{
+    outline-offset: 0px solid white;
+} */
+/* --------------------------------  */
+.header-panel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-header {
+    width: 33%;
+}
+
+.right-panel {
+    width: 33%;
+    border: 1px solid;
+}
+
+.right-panel .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-panel .info h4 {
+    margin: 5px;
+}
+
+.wrapped-first {
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.wrapped-first .first {
+    display: flex;
+    width: 33%;
+
+}
+
+.signature-1 {
+    width: 50%;
+    margin-top: 100px;
+}
+
+/* media queries  1180 */
+
+@media only screen and (max-width: 1180px) {
+    .commonBorederB {
+        width: 80%;
+    }
+
+    .right-panel {
+        margin-right: 70px;
+    }
+
+}
+
+/* media queries  820 */
+
+@media only screen and (max-width: 820px) {
+    .commonBorederB {
+        width: 80%;
+    }
+
+    .right-panel {
+        margin-left: 1.5px;
+    }
+}
+
+
+
+/* 2 -----------------------------------------  */
+.wrapped-second {
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    width: 100%;
+}
+
+/*
+.w-66 {
+     padding: 10px;
+    margin: 1px0;
+    background-image: linear-gradient(#a0a0a0 1.5px, transparent 1.5px),                linear-gradient(90deg, #a0a0a0 1.5px, transparent 1.5px),linear-gradient(#a9a9a9 1px, transparent 1px),linear-gradient(90deg, #a9a9a9 1.5px, transparent 1.5px);
+    background-position: -1.5px -1.5px, -1.5px -1.5px, -1px -1px, -1px -1px;
+    background-size: 0px 0px, 60px 100px, 20px 20px, 20px 20px; 
+}
+*/
+
+
+.w-66 {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* height: 78vh; */
+    /* min-height: 50vh; */
+    width: 66%;
+    overflow: hidden;
+
+}
+
+.w-66-b1 {
+    text-align: right;
+}
+
+/* .graph-paper {
+    position: relative;
+    font-weight: 900;
+    padding: 0 0.12em 0 0;
+    font-size: 8em;
+    color: #6776be;
+} 
+
+.graph-paper::after {
+    content: attr(data-name);
+    position: absolute;
+    top: 0.06em;
+    left: 0.12em;
+    color: #9084d0;
+    opacity: 0.5;
+    z-index: -1;
+}*/
+
+.w-33 {
+    display: flex;
+    width: 34%;
+}
+
+.w-17 {
+    margin: 10px;
+    padding: 10px;
+    width: 140vh;
+}
+
+.fsot-box {
+    margin: 15px;
+    padding: 15px;
+}
+
+.authorize {
+    width: 125%;
+}
+
+.w-16 {
+    width: 60vh;
+
+}
+
+.checkbox-16 {
+    margin-top: 30px;
+}
+
+.signature {
+    margin-top: 235px;
+}
+
+/* media queries  1180 */
+
+@media only screen and (max-width: 1180px) {
+    .w-66 {
+        width: 60%;
+    }
+
+    .w-33 {
+        width: 40%;
+    }
+
+    .signature {
+        margin-top: 171px;
+    }
+
+}
+
+/* media queries  820 */
+
+@media only screen and (max-width: 820px) {
+    .w-66 {
+        width: 47%;
+    }
+
+    .w-33 {
+        width: 53%;
+    }
+
+    .signature {
+        margin-top: 155px;
+    }
+}
+
+
+
+/* 3 ======================== 2 */
+.wrapped-third {
+    width: 100%;
+}
+
+.heading-wrapped-third {
+    text-align: center;
+}
+
+.body-wrapped-third {
+    margin: 10px;
+    padding-right: 30%;
+}
+
+.info-wrapped-third {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.birth {
+    margin-right: 2%;
+    padding-right: 2%;
+}
+
+.Proposed {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .para-wrapped-third{
+   
+} */
+
+/* ======================== 3*/
+
+
+
+.wrapped-fourth {
+    width: 100%;
+}
+
+.heading-wrapped-fourth {
+    border: 1px solid black;
+    justify-content: center;
+}
+
+.heading-fourth {
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+.input-fourth {
+    margin: 10px;
+    /* padding: 1%; */
+    /* display: flex; */
+
+}
+
+.a1 {
+    /* margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 110px; */
+    /* min-width: ; */
+    max-width: 100px;
+}
+
+.a2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.signature-3 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.signature-3-1 {
+    display: flex;
+    position: absolute;
+    left: 50px;
+}
+
+.signature-3-2 {
+    width: 14%;
+}
+
+/* ======================== 4 */
+
+.wrapped-fifth {
+    width: 100%;
+}
+
+.heading-wrapped-fifth {
+    /* background-color: #D0CECE; */
+    /* border: 1px solid black; */
+}
+
+.heading-fifth {
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+/* ******* */
+table,
+td,
+th {
+    border: 1px solid;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.post-table-p {
+    display: flex;
+    width: 100%;
+
+
+}
+
+.post-table-c {
+    width: -webkit-fill-available;
+}
+
+.post-table-d {
+    width: -webkit-fill-available;
+
+}
+
+.d1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.d2 {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+.c1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.header-panel2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin: 10px;
+}
+
+/* media queries  820 */
+
+@media only screen and (max-width: 820px) {
+    .post-table-d {
+        /* margin-right: 5px; */
+        padding-right: 5px;
+    }
+}
+
+/* media queries  1180 */
+
+/* @media only screen and (max-width: 1180px) {
+ 
+
+  } */
+
+/* ------------------------------------  */
+
+.wrapped-sixth {
+    width: 100%;
+}
+
+.heading-wrapped-sixth {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.para-wrapped-sixth-1 {
+    text-align: center;
+}
+
+.s1 {
+    margin-left: 50px;
+}
+
+.signature-6 {
+    width: 30%;
+    margin-bottom: 50px;
+}
+
+/* Added by Enam */
 .collapsible {
-    background-color: #f1f1f1;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -12,5 +419,5 @@
     display: none;
     padding: 0 18px;
     overflow: hidden;
-    background-color: #f1f1f1;
+    
 }
